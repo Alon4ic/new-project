@@ -1,0 +1,154 @@
+body {
+	font-family: "Cabin", serif;
+	font-size: 16px;
+	line-height: 120%;
+	font-weight: 400;
+	background: linear-gradient(to top, #89bafd 0%, #dbfdff 100%);
+	color: #1e2340;
+	margin: 0;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 64px;
+	line-height: 120%;
+	font-weight: 700;
+	text-align: center;
+	color: transparent;
+	background: #1e2340;
+	background: url(https://c.tenor.com/dlFpNRXcJhEAAAAM/goodnight-stars.gif);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	background-size: cover;
+	padding: 20px 0;
+	border: 2px solid #100907;
+	border-radius: 5px;
+	box-shadow: 20px 20px 30px rgba(16, 29, 52, 0.1);
+}
+
+h2 {
+	font-size: 48px;
+	line-height: 120%;
+	font-weight: 600;
+	text-align: center;
+	padding: 80px;
+	color: #e0fbfc;
+}
+
+span {
+	font-size: 50px;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 120%;
+	text-align: center;
+}
+
+hr {
+	height: 2px;
+	background: #1e2340;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	display: block;
+	margin: 40px auto 30px;
+	font-family: "Cabin", serif;
+	font-size: 22px;
+	line-height: 120%;
+	font-weight: 600;
+	padding: 20px 80px;
+	color: #e0fbfc;
+	background: linear-gradient(to left, #2c4c79 0%, #1d7be1 100%);
+	border: 2px solid #1e2340;
+	border-radius: 15px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+	transition: all 300ms ease-in-out;
+}
+
+button:hover {
+	background: linear-gradient(to left, #d6e2f4 0%, #abcef4 100%);
+	color: #1e2340;
+	cursor: pointer;
+	font-style: italic;
+	margin: 42px auto 28px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.description {
+	background: rgb(77, 117, 193);
+	background-image: url(https://img1.goodfon.com/wallpaper/nbig/7/94/noch-krepost-zamok-pristan.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.club-inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.club-img {
+	max-width: 400px;
+	margin-right: 40px;
+	margin-top: 17px;
+	border-radius: 5px;
+}
+
+.books-footer {
+	text-align: center;
+	font-size: 13px;
+}
+
+.books-link {
+	color: #1e2340;
+}
+
+@media (max-width: 900px) {
+	h1 {
+		font-size: 50px;
+		padding: 10px 0;
+	}
+
+	h2 {
+		font-size: 36px;
+		padding: 60px;
+	}
+
+	span {
+		font-size: 40px;
+	}
+
+	h3 {
+		font-size: 28px;
+	}
+
+	button {
+		font-size: 16px;
+		padding: 10px 60px;
+		margin: 20px auto 15px;
+	}
+
+	.club-inner {
+		display: block;
+	}
+
+	.club-img {
+		display: block;
+		margin: 20px auto;
+	}
+}

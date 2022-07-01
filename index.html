@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,700;1,600&display=swap"
+		rel="stylesheet">
+	<title>My project</title>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Harry Potter<br /> club</h1>
+	</div>
+	<div class="description">
+		<h2>Welcome to the magical world<br /><span>of Hogwarts!</span></h2>
+	</div>
+	<div class="container">
+		<h3>J.K. Rowling - the creator of the magikal world</h3>
+		<hr class="line">
+		<div class="club-inner">
+			<img class="club-img"
+				src="https://d.newsweek.com/en/full/1956692/jk-rowling.jpg?w=1600&h=1600&q=88&f=198ef261f59d94b333e01ce9b732e700"
+				alt="J.K. Rowling">
+			<div class="club-item">
+				<p class="club-content"><strong>Joanne Rowling</strong> (born 31 July 1965), also known by her pen name
+					J. K. Rowling, is a British author and philanthropist. She wrote a seven-volume children's fantasy
+					series, Harry Potter,
+					published from 1997 to 2007. The series has been enormously successful: it has sold over 500 million
+					copies, been translated into at least 70 languages, and spawned a global media franchise including
+					films and video games. The Casual Vacancy (2012) was her first novel for adults. She writes Cormoran
+					Strike, an ongoing crime fiction series, as Robert Galbraith.<br /><br />Born in Yate, Rowling
+					graduated from the University of Exeter in 1987 and began working temp jobs as a bilingual
+					secretary. In 1990, the idea for the characters of Harry Potter came to her while she waited on a
+					delayed train. The seven-year period that followed saw the death of her mother from multiple
+					sclerosis, which deeply affected Rowling and her writing; the birth of her first child; and divorce
+					from her first husband. She wrote the first Harry Potter novel, Harry Potter and the Philosopher's
+					Stone (1997), while experiencing relative poverty as a single parent. Forbes named her the world's
+					highest-paid author in 2008, 2017 and 2019.
+				</p>
+				<a href="https://en.wikipedia.org/wiki/J._K._Rowling" target="_blank">Learn more...</a>
+			</div>
+		</div>
+		<button>Become a member of our club</button>
+		<p class="books-footer">This page was build
+			<a class="books-link" href="https://www.linkedin.com/in/olena-redko-673903146/" target="_blank"><em>Olena
+					Redko</em></a>
+		</p>
+	</div>
+	<script>
+		function club() {
+			let userName = prompt("What is your name?");
+			alert("Hello " + userName + "! We are glade to see you in our club!");
+
+			let books = prompt("How many Harry Potter sequels have you read?");
+			if (books < 1) {
+				alert("You can discover so many interesting things!");
+			} else if (books >= 1 && books < 7) {
+				alert("You will soon be able to become a memberof our club!")
+			} else if (books == 7) {
+				alert("You are a worthy member of our club!")
+			} else {
+				alert("There are 7 sequels in total.");
+			}
+
+		}
+		let buyButton = document.querySelector("button");
+		buyButton.addEventListener("click", club);
+	</script>
+</body>
+
+</html>
